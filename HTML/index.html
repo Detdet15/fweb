@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>EASTWOODS Professional College of Science and Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="link rel=preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap" rel="stylesheet">
+                                                                                                                <script src="https://kit.fontawesome.com/baf54c9cb2.js" crossorigin="anonymous"></script>
+  </head>
+  <body onload = "slider()">
+    <section class="header">
+        <section class="header">
+      <nav>
+            <a href="index.html"><img src="https://i.postimg.cc/bY9rNCBX/l.png"></a>
+            <div class="nav-links">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div class="banner">
+          <div class="slider">
+            <img src="images/b.png" id="slideImg">
+          </div>
+          <div class="overlay">
+
+          </div>
+        </div>
+        <script>
+          var slideImg  = document.getElementById("slideImg");
+          var images =  new Array(
+            "images/b.png",
+            "images/img1.png",
+            "images/img2.png"
+          );
+          var len = images.length;
+          var i =  0;
+          function slider(){
+            if(i > len-1){
+              i = 0;
+            }
+            slideImg.src = images[i];
+            i++;
+            setTimeout('slider()', 3000);
+
+          }
+        </script>
+    <div class="text-box">
+                         <h1>EASTWOODS Professional College of Science and Technology</h1>
+                         <p>HOME OF THE CHAMPIONS</p>
+                         <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.epcst.edu.ph%2F%3Ffbclid%3DIwAR1woDbNS_lnLe5u5RinM3Gqs5IxuWD0avIswszx31TybNliXwFzdk-Ty3k&h=AT1PoVqcMGqa3Onu6_creS2RjfXRKCXJnMYT8dzzra1qmyNJDcrDvA0NPyV2SOkzzHWg2aIQIAmEf4_39HYI-VGAfHj-ujTKWDBy25gl0VWvWGMaEA505TiS8y4pZ7BZz8XyIw" class="hero-btn">Visit Us To Know More</a>
+    </div>
+                         
+    </section>
+      <!------ Course ------>
+    <section class="course">
+                           <h1>Courses We Offer</h1>
+                           <p>Be a CHAMPION!</p>
+                           <div class="row">
+                           <div class="course-col">
+                                                  <h3>Degree</h3>
+                                                  <p>Bachelor  of Science in Computer Engineering<br> 
+                                                  Bachelor of Science in Information Technology<br>
+                                                  Bachelor of  Science in Computer Science<br>
+                                                  Bachelor of Science in Hospitality Management<br>
+                                                  2 year Associate in Computer Technology</p>                        
+                           </div>
+                           <div class="course-col">
+                                                  <h3>TESDA Courses</h3>
+                                                  <p>Electronic Products Assembly and Servicing NC II<br>
+                                                  Caregiving Program
+                                                  3 year Hotel and Restaurant Technology<br>
+                                                  3 year Computer Engineering Technology<br>
+                                                  3 year Tourism and Travel Management<br>
+                                                  2 year Hotel and Restaurant Services</p>
+                           </div>
+                           <div class="course-col"> 
+                                                  <h3>Training and Assessment</h3>
+                                                  <p>Food and Beverage Services NC II <br>
+                                                  Computer System Services NC II</p>
+                                                  
+                           </div>                       
+                           </div>                
+    </section>
+    <!------- campus ------>
+    <section  class="campus">
+                            <h1>Our Bataan Campus</h1>
+                            <p>Genosis Exousia 1994</p>
+                            <div class="row">
+                                            <div class="campus-col">
+                                            <img src="https://i.postimg.cc/pd3ttS55/dinalupihan.png">
+                                            <div class="layer">
+                                                              <h3>DINALUPIHAN</h3>
+                                            </div>
+                                            </div>
+                                            <div class="campus-col">
+                                            <img src="https://i.postimg.cc/Jz0rVvzM/campus1.png">
+                                            <div class="layer">
+                                                              <h3>BALANGA CITY</h3>
+                                            </div>
+                                            </div>
+                                            <div class="campus-col">
+                                            <img src="https://i.postimg.cc/pXgGRn2r/campus2.jpg">
+                                            <div class="layer">
+                                                              <h3>BALANGA HIGHWAY</h3>
+                                            </div>
+                                            </div>                  
+                            </div>
+    <!------ Call to action ------>
+    <section  class="cta">
+                         <h1>"We Educate, Develop and Inspire."</h1>
+                         <a href="" class="hero-btn">CONTACT  US</a>
+    <section  class="footer">
+                            <h4>About Us</h4>
+                            <p>Eastwoods Professional College of Science and Technology, formerly known as SOFTNET College of Science and Technology,<br> is a private educational institution established in 1994.</p>
+                            <div class="icons">
+                                              <i class="fa-brands fa-facebook"></i>
+                                              <i class="fa-solid fa-envelope"></i>
+                                              <i class="fa-solid fa-phone"></i>
+                            </div>
+                            
+    </section>
+  </body>
+</html>
